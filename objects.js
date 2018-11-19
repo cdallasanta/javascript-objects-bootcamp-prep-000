@@ -1,9 +1,5 @@
-var meals = {
-  breakfast:'cereal',
-  lunch:'leftovers',
-  dinner:'pot pie'
+var playlist = {
+  'Jason Mraz':'Unlonely',
+  'Whitney Houston':'I Will Always Love You'
 };
 
-function nondestructivelyAddItem(obj, key,value){
-  return Object.assign(obj, {[key]:value});
-}
